@@ -84,85 +84,115 @@ export default function Home() {
           />
         </section>
 
-        <section className="text-amber-600 body-font bg-[url('/bground.jpg')] ">
+        <section className="bg-gradient-to-tr from-neutral-900 via-stone-800 to-neutral-900">
           <div className="container px-5 py-24 mx-auto">
-            <div className="flex flex-col text-center w-full mb-20">
-              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-amber-300">
-                Receipes Categories
-              </h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-                air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-                park mlkshk tote bag selvage hot chicken authentic tumeric
-                truffaut hexagon try-hard chambray.
-              </p>
-            </div>
             <div className="flex flex-wrap -m-4">
-              <div className="p-4 lg:w-1/4 md:w-1/2">
-                <div className="h-full flex flex-col items-center text-center shadow-sm">
-                  <Link href="/non_veg">
-                    <Image
-                      className="flex-shrink-0 w-full h-95 object-cover object-center mb-4 rounded-lg border-2 border-red-800 hover:contrast-125"
-                      src="/nonVeg.jpg"
-                      alt="blob"
-                      width={500}
-                      height={500}
-                    ></Image>
-
-                    <button className="flex items-center mt-auto text-white bg-red-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-red-700 rounded">
-                      Non Vegetarian
-                    </button>
-                  </Link>
+              <div className="p-4 md:w-1/3">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                  <Image
+                    className="lg:h-48 md:h-36 w-full object-cover object-center"
+                    src="/nonVeg.jpg"
+                    alt="blob"
+                    width={500}
+                    height={500}
+                  ></Image>
+                  <div className="p-6">
+                    <h1 className="title-font text-lg font-medium text-red-400 mb-3">
+                      NON VEGETARIAN
+                    </h1>
+                    <p className="leading-relaxed mb-3 text-amber-100">
+                      Photo booth fam kinfolk cold-pressed sriracha leggings
+                      jianbing microdosing tousled waistcoat.
+                    </p>
+                    <div className="flex items-center flex-wrap ">
+                      <Link href="/non_veg">
+                        <button className="flex items-center mt-auto text-white bg-red-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-red-700 rounded">
+                          Non Vegetarian
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="p-4 lg:w-1/4 md:w-1/2">
-                <div className="h-full flex flex-col items-center text-center shadow-sm">
-                  <Link href="/veg">
-                    <Image
-                      className="flex-shrink-0 w-full h-95 object-cover object-center mb-4 rounded-lg border-2 border-lime-800 hover:contrast-125"
-                      src="/veg_1.png"
-                      alt="blob"
-                      width={500}
-                      height={500}
-                    ></Image>
-                    <button className="flex items-center mt-auto text-white bg-lime-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-lime-700 rounded">
-                      Vegetarian
-                    </button>
-                  </Link>
+              <div className="p-4 md:w-1/3">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                  <Image
+                    className="lg:h-48 md:h-36 w-full object-cover object-center"
+                    src="/veg_1.png"
+                    alt="blob"
+                    width={500}
+                    height={500}
+                  ></Image>
+                  <div className="p-6">
+                    <h1 className="title-font text-lg font-medium text-lime-400 mb-3">
+                      VEGETARIAN
+                    </h1>
+                    <p className="leading-relaxed mb-3 text-amber-100">
+                      Photo booth fam kinfolk cold-pressed sriracha leggings
+                      jianbing microdosing tousled waistcoat.
+                    </p>
+                    <div className="flex items-center flex-wrap">
+                      <Link href="/veg">
+                        <button className="flex items-center mt-auto text-white bg-lime-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-lime-700 rounded">
+                          Vegetarian
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
-
-              <div className="p-4 lg:w-1/4 md:w-1/2">
-                <div className="h-full flex flex-col items-center text-center shadow-sm">
-                  <Link href="/sweets">
-                    <Image
-                      className="flex-shrink-0 w-full h-95 object-cover object-center mb-4 rounded-lg border-2 border-yellow-800 hover:contrast-125"
-                      src="/sweets.PNG"
-                      alt="blob"
-                      width={500}
-                      height={500}
-                    ></Image>
-                    <button className="flex text-center mt-auto text-white bg-yellow-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-yellow-700 rounded">
-                      Sweets
-                    </button>
-                  </Link>
+              <div className="p-4 md:w-1/3">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                  <Image
+                    className="lg:h-48 md:h-36 w-full object-cover object-center"
+                    src="/sweets.PNG"
+                    alt="blob"
+                    width={500}
+                    height={500}
+                  ></Image>
+                  <div className="p-6">
+                    <h1 className="title-font text-lg font-medium text-yellow-400 mb-3">
+                      SWEETS & DESERTS
+                    </h1>
+                    <p className="leading-relaxed mb-3 text-amber-100">
+                      Photo booth fam kinfolk cold-pressed sriracha leggings
+                      jianbing microdosing tousled waistcoat.
+                    </p>
+                    <div className="flex items-center flex-wrap ">
+                      <Link href="/sweets">
+                        <button className="flex text-center mt-auto text-white bg-yellow-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-yellow-700 rounded">
+                          Sweets
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
-              </div>
-
-              <div className="p-4 lg:w-1/4 md:w-1/2">
-                <div className="h-full flex flex-col items-center text-center shadow-sm">
-                  <Link href="/snacks">
-                    <Image
-                      className="flex-shrink-0 w-full h-95 object-cover object-center mb-4 rounded-lg border-2 border-gray-800 hover:contrast-125"
-                      src="/snacks.PNG"
-                      alt="blob"
-                      width={500}
-                      height={500}
-                    ></Image>
-                    <button className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">
-                      Snacks
-                    </button>
-                  </Link>
+              </div>{" "}
+              <div className="p-4 md:w-1/3">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                  <Image
+                    className="lg:h-48 md:h-36 w-full object-cover object-center"
+                    src="/snacks.PNG"
+                    alt="blob"
+                    width={500}
+                    height={500}
+                  ></Image>
+                  <div className="p-6">
+                    <h1 className="title-font text-lg font-medium text-gray-400 mb-3">
+                      SNACKS & CHAI
+                    </h1>
+                    <p className="leading-relaxed mb-3 text-amber-100">
+                      Photo booth fam kinfolk cold-pressed sriracha leggings
+                      jianbing microdosing tousled waistcoat.
+                    </p>
+                    <div className="flex items-center flex-wrap ">
+                      <Link href="/snacks">
+                        <button className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">
+                          Snacks
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
