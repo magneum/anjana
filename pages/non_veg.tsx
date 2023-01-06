@@ -11,7 +11,7 @@ export default function non_veg() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <header className="text-amber-100 body-font bg-black">
+        <header className="text-red-100 body-font bg-black">
           <div className="relative">
             <Image
               src="/tikka.jpg"
@@ -21,16 +21,17 @@ export default function non_veg() {
               height={500}
             />
             <div className="relative bg-stone-900 bg-opacity-70">
-              <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                <h2 className="text-4xl font-bold text-amber-500 lg:text-4xl">
-                  Recipe Book
-                </h2>
-                <p className="mt-4 text-sm text-amber-200 lg:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis commodi cum cupiditate ducimus, fugit harum id
-                  necessitatibus odio quam quasi, quibusdam rem tempora
-                  voluptates.
+              <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-center">
+                <p className="mt-4 text-2xl text-red-600 opacity-80 lg:text-4xl font-mono italic font-bold">
+                  <span>Healthy Light Delight</span>
                 </p>
+                <h2 className="text-5xl font-bold font-serif text-red-500 lg:text-8xl opacity-95 text-center">
+                  Craving Center
+                </h2>
+                <br></br>
+                <h2 className="text-xl font-bold font-serif text-red-400 lg:text-3xl opacity-95 text-clip">
+                  - by Anjana Dutta
+                </h2>
                 <br />
               </div>
             </div>
@@ -45,7 +46,7 @@ export default function non_veg() {
           />
         </header>
 
-        <section className="bg-amber-100">
+        <section className="bg-red-100">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap -m-4">
               <div className="p-4 md:w-1/3">
@@ -238,18 +239,18 @@ Turmeric powder, salt, red chilli powder.<br></br>
           />
         </section>
 
-        <footer className="bg-neutral-900 text-amber-400 body-font">
+        <footer className="bg-neutral-900 text-red-400 body-font">
           <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-            <a className="flex title-font font-medium items-center md:justify-start justify-center text-amber-500">
-              <span className="ml-3 text-xl hover:text-amber-600">
+            <a className="flex title-font font-medium items-center md:justify-start justify-center text-red-500">
+              <span className="ml-3 text-xl hover:text-red-600">
                 <b>❝ Coded by ⒸKryKenz ❞</b>
               </span>
             </a>
-            <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-amber-800 sm:py-2 sm:mt-0 mt-4">
+            <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-red-800 sm:py-2 sm:mt-0 mt-4">
               <b>Since 2021 and Forever</b>
               <a
                 href="https://github.com/KryKenz/Vlkyre/blob/krytek/LICENSE"
-                className="text-amber-500 ml-1 hover:text-amber-200"
+                className="text-red-500 ml-1 hover:text-red-200"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -258,7 +259,7 @@ Turmeric powder, salt, red chilli powder.<br></br>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"></span>
             <a
-              className="inline-flex items-center rounded-full bg-stone-900 px-8 py-3 text-amber-600 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
+              className="inline-flex items-center rounded-full bg-stone-900 px-8 py-3 text-red-600 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
               href="#"
             >
               <span className="text-sm font-medium"> Back To Top </span>
