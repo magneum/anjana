@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
+import React, { useState, useEffect } from "react";
 const Main = dynamic(() => import("../components/veg/main"));
 const Navbar = dynamic(() => import("../components/veg/nav"));
 const Header = dynamic(() => import("../components/veg/header"));

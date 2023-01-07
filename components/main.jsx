@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import tinyurl from "tinyurl";
 import React, { useState, useEffect } from "react";
 
 export default function Body() {

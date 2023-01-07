@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+import React, { useState, useEffect } from "react";
 export default function Footer() {
+  useEffect(() => {}, []);
   return (
     <footer className="bg-neutral-900 text-amber-400 body-font">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">

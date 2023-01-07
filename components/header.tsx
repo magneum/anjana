@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import React, { useState, useEffect } from "react";
 export default function Header() {
+  useEffect(() => {}, []);
   return (
     <header className="text-amber-100 body-font bg-black">
       <div className="relative">
