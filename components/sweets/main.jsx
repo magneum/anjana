@@ -20,11 +20,9 @@ export default function Main() {
               <div className="p-6">
                 <a
                   className="bg-gradient-to-r from-stone-900 via-stone-800 to-yellow-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-yellow-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
-                  href="#"
+                  href="/receipes/khoyakheerpuli"
                 >
-                  <span className="text-lg font-medium">
-                    Prawn Mushroom with Cashew Receipe
-                  </span>
+                  <span className="text-lg font-medium">Khoya Kheer Puli</span>
                   <svg
                     className="ml-3 h-5 w-5"
                     xmlns="http://www.w3.org/2000/svg"
@@ -42,20 +40,27 @@ export default function Main() {
                 </a>
                 <br></br>
                 <br></br>
-                <h1 className="title-font text-lg font-medium text-white mb-3 ">
+                <h1 className="title-font text-lg  text-white mb-3 uppercase font-semibold">
                   Ingrediants
                 </h1>
                 <p className="leading-relaxed mb-3 text-yellow-100">
                   <span className="text-yellow-300 font-bold">1.</span>
-                  Prawn<br></br>
+                  Shredded Coconut x 1 coconut<br></br>
                   <span className="text-yellow-300 font-bold">2.</span>
-                  Button Mushroom<br></br>
+                  Khoya Kheer / Mawa kheer - (dried evaporated milk) x 100gm
+                  <br></br>
                   <span className="text-yellow-300 font-bold">3.</span>
-                  Cashew paste<br></br>
+                  Sugar x 100 gm<br></br>
                   <span className="text-yellow-300 font-bold">4.</span>
-                  Tomato, chilli, onions, ginger paste<br></br>
+                  Flour x 250gm<br></br>
                   <span className="text-yellow-300 font-bold">5.</span>
-                  Turmeric powder, salt, red chilli powder.<br></br>
+                  Rice Flour x 250gm<br></br>
+                  <span className="text-yellow-300 font-bold">5.</span>
+                  Ghee x 1 tablespoon <br></br>
+                  <span className="text-yellow-300 font-bold">5.</span>
+                  Water x 500ml<br></br>
+                  <span className="text-yellow-300 font-bold">5.</span>
+                  Oil x as required <br></br>
                 </p>
               </div>
             </div>

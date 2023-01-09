@@ -42,7 +42,7 @@ export default function Body() {
         />
       </section>
 
-      <section className="bg-gradient-to-tr from-neutral-900 via-stone-800 to-neutral-900">
+      <section className="bg-gradient-to-tr from-stone-900 via-stone-800 to-stone-900">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">

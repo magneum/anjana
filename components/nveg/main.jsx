@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 export default function Main() {
   useEffect(() => {}, []);
   return (
-    <section className="bg-red-100">
+    <section className="bg-amber-50">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">
@@ -20,7 +20,7 @@ export default function Main() {
               <div className="p-6">
                 <a
                   className="bg-gradient-to-r from-stone-900 via-stone-800 to-orange-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-orange-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
-                  href="#"
+                  href="/receipes/PrawnMushroomWithCashew"
                 >
                   <span className="text-lg font-medium">
                     Prawn Mushroom with Cashew Receipe
