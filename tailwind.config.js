@@ -6,7 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {},
+      fontFamily: {
+        pacifo: "Pacifico, cursive",
+      },
     },
   },
   plugins: [require("daisyui")],

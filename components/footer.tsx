@@ -19,7 +19,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i>Licensed Under Mozilla Public License 2.0</i>
+            <i>Licensed Under MPL 2.0</i>
           </a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"></span>
