@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import React, { useState, useEffect } from "react";
-export default function Main() {
+export default function FoodPlace() {
   return (
     <section className=" bg-zinc-900">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">

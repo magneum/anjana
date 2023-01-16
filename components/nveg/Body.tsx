@@ -17,12 +17,12 @@ export default function Body() {
                 height={500}
               ></Image>
               <div className="p-6">
-                <a
+                <Link
                   className="bg-gradient-to-r from-stone-900 via-stone-800 to-orange-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-orange-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
-                  href="/receipes/PrawnMushroomWithCashew"
+                  href="/receipes/PrawnMushroomWithCashew/receipe"
                 >
                   <span className="text-lg font-medium">
-                    Prawn Mushroom with Cashew Receipe
+                    Prawn Mushroom with Cashew
                   </span>
                   <svg
                     className="ml-3 h-5 w-5"
@@ -38,7 +38,7 @@ export default function Body() {
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
-                </a>
+                </Link>
                 <br></br>
                 <br></br>
                 <h1 className="title-font text-lg font-medium text-white mb-3 ">
