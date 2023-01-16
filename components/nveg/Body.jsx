@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import React, { useState, useEffect } from "react";
 export default function Body() {
   return (
-    <section className="bg-gradient-to-br from-stone-900 via-stone-900 to-[#3d1010] backdrop-blur-md">
+    <section className="bg-gradient-to-br from-stone-900 via-stone-900 to-[#3d1710] backdrop-blur-md">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">
