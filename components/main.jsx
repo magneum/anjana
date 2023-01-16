@@ -6,7 +6,7 @@ export default function Body() {
   useEffect(() => {}, []);
   return (
     <div>
-      <section className="text-amber-600 body-font bg-[url('/bground.jpg')]">
+      <section className=" text-amber-600 bg-gradient-to-br from-stone-900 via-stone-900 to-orange-900 backdrop-blur-md">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
@@ -42,11 +42,11 @@ export default function Body() {
         />
       </section>
 
-      <section className="bg-gradient-to-tr from-stone-900 via-stone-800 to-stone-900">
+      <section className="bg-gradient-to-br from-orange-900 via-stone-900 to-stone-900">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
-            <div className="p-4 md:w-1/3">
-              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <div className="p-4 md:w-1/3 hover:scale-105">
+              <div className="h-full border-opacity-60 rounded-lg overflow-hidden glass bg-gradient-to-t from-orange-900 via-stone-900 to-stone-900">
                 <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="/nonVeg.jpg"
@@ -64,7 +64,7 @@ export default function Body() {
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <Link href="/non_veg">
-                      <button className="flex items-center mt-auto text-white bg-red-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-red-700 rounded">
+                      <button className="flex items-center mt-auto text-white bg-red-800 border-0 py-2 px-4 w-auto focus:outline-none hover:bg-red-700 rounded">
                         Non Vegetarian
                       </button>
                     </Link>
@@ -72,8 +72,8 @@ export default function Body() {
                 </div>
               </div>
             </div>
-            <div className="p-4 md:w-1/3">
-              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <div className="p-4 md:w-1/3 hover:scale-105">
+              <div className="h-full border-opacity-60 rounded-lg overflow-hidden glass bg-gradient-to-t from-orange-900 via-stone-900 to-stone-900 ">
                 <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="/veg_1.png"
@@ -91,7 +91,7 @@ export default function Body() {
                   </p>
                   <div className="flex items-center flex-wrap">
                     <Link href="/veg">
-                      <button className="flex items-center mt-auto text-white bg-lime-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-lime-700 rounded">
+                      <button className="flex items-center mt-auto text-white bg-lime-800 border-0 py-2 px-4 w-auto focus:outline-none hover:bg-lime-700 rounded">
                         Vegetarian
                       </button>
                     </Link>
@@ -99,8 +99,8 @@ export default function Body() {
                 </div>
               </div>
             </div>
-            <div className="p-4 md:w-1/3">
-              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <div className="p-4 md:w-1/3 hover:scale-105">
+              <div className="h-full border-opacity-60 rounded-lg overflow-hidden glass bg-gradient-to-t from-orange-900 via-stone-900 to-stone-900">
                 <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="/sweets.PNG"
@@ -118,7 +118,7 @@ export default function Body() {
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <Link href="/sweets">
-                      <button className="flex text-center mt-auto text-white bg-yellow-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-yellow-700 rounded">
+                      <button className="flex text-center mt-auto text-white bg-yellow-800 border-0 py-2 px-4 w-auto focus:outline-none hover:bg-yellow-700 rounded">
                         Sweets
                       </button>
                     </Link>
@@ -126,8 +126,8 @@ export default function Body() {
                 </div>
               </div>
             </div>{" "}
-            <div className="p-4 md:w-1/3">
-              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <div className="p-4 md:w-1/3 hover:scale-105">
+              <div className="h-full border-opacity-60 rounded-lg overflow-hidden glass bg-gradient-to-t from-orange-900 via-stone-900 to-stone-900">
                 <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="/snacks.PNG"
@@ -145,7 +145,7 @@ export default function Body() {
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <Link href="/snacks">
-                      <button className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">
+                      <button className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-auto focus:outline-none hover:bg-gray-700 rounded">
                         Snacks
                       </button>
                     </Link>

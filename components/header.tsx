@@ -19,11 +19,11 @@ export default function Header() {
             <p className="mt-4 text-2xl text-amber-600 opacity-80 lg:text-4xl font-mono italic font-bold">
               <span>Healthy Light Delight</span>
             </p>
-            <h2 className="text-5xl font-bold font-serif text-amber-500 lg:text-8xl opacity-95 text-center">
+            <h2 className="text-5xl font-bold text-amber-500 lg:text-8xl opacity-95 text-center">
               Craving Center
             </h2>
             <br></br>
-            <h2 className="text-xl font-bold font-serif text-amber-400 lg:text-3xl opacity-95 text-clip">
+            <h2 className="text-xl font-bold text-amber-400 lg:text-3xl opacity-95 text-clip">
               - by Anjana Dutta
             </h2>
             <br />
