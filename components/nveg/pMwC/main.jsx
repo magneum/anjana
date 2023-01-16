@@ -3,7 +3,6 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import React, { useState, useEffect } from "react";
 export default function Main() {
-  useEffect(() => {}, []);
   return (
     <section>
       <a className="block border bg-amber-50 p-8">

@@ -4,10 +4,9 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import React, { useState, useEffect } from "react";
 const Navbar = dynamic(() => import("../components/nav"));
-const mainBody = dynamic(() => import("../components/mainBody"));
+const Body = dynamic(() => import("../components/Body"));
 
 export default function Home() {
-  useEffect(() => {}, []);
   return (
     <>
       <Head>
@@ -52,7 +51,7 @@ export default function Home() {
             }}
           />
         </header>
-        <mainBody />
+        <Body />
         <footer className="bg-stone-900 text-amber-400 body-font">
           <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-amber-500">

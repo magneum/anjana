@@ -2,8 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import React, { useState, useEffect } from "react";
-export default function Main() {
-  useEffect(() => {}, []);
+export default function Body() {
   return (
     <section className="bg-yellow-100">
       <div className="container px-5 py-24 mx-auto">

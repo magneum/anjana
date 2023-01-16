@@ -2,8 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 
-export default function mainBody() {
-  useEffect(() => {}, []);
+export default function Body() {
   return (
     <div>
       <section className=" text-amber-600 bg-gradient-to-br from-stone-900 via-stone-900 to-orange-900 backdrop-blur-md">
@@ -46,7 +45,7 @@ export default function mainBody() {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3 hover:scale-105">
-              <div className="h-full border-opacity-60 rounded-lg overflow-hidden glass bg-gradient-to-t from-orange-900 via-stone-900 to-stone-900">
+              <div className="h-full border-opacity-60 rounded-lg overflow-hidden glass bg-gradient-to-t from-red-900 via-stone-900 to-stone-900">
                 <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="/nonVeg.jpg"
@@ -73,7 +72,7 @@ export default function mainBody() {
               </div>
             </div>
             <div className="p-4 md:w-1/3 hover:scale-105">
-              <div className="h-full border-opacity-60 rounded-lg overflow-hidden glass bg-gradient-to-t from-orange-900 via-stone-900 to-stone-900 ">
+              <div className="h-full border-opacity-60 rounded-lg overflow-hidden glass bg-gradient-to-t from-lime-900 via-stone-900 to-stone-900 ">
                 <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="/veg_1.png"
@@ -100,7 +99,7 @@ export default function mainBody() {
               </div>
             </div>
             <div className="p-4 md:w-1/3 hover:scale-105">
-              <div className="h-full border-opacity-60 rounded-lg overflow-hidden glass bg-gradient-to-t from-orange-900 via-stone-900 to-stone-900">
+              <div className="h-full border-opacity-60 rounded-lg overflow-hidden glass bg-gradient-to-t from-yellow-900 via-stone-900 to-stone-900">
                 <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="/sweets.PNG"
@@ -127,7 +126,7 @@ export default function mainBody() {
               </div>
             </div>{" "}
             <div className="p-4 md:w-1/3 hover:scale-105">
-              <div className="h-full border-opacity-60 rounded-lg overflow-hidden glass bg-gradient-to-t from-orange-900 via-stone-900 to-stone-900">
+              <div className="h-full border-opacity-60 rounded-lg overflow-hidden glass bg-gradient-to-t from-gray-900 via-stone-900 to-stone-900">
                 <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="/snacks.PNG"
