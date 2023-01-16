@@ -7,7 +7,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        pacifico: ["Pacifico, cursive"],
+        sacramento: ["Sacramento", "cursive"],
+        major: ["Major Mono Display", "monospace"],
+        maven: ["Maven Pro", "sans-serif"],
       },
     },
   },

@@ -20,7 +20,7 @@ export default function Snacks() {
         <header className="text-gray-100 body-font bg-black">
           <div className="relative">
             <Image
-              src="/snacks.PNG"
+              src="/bground.jpg"
               className="absolute inset-0 object-cover w-full h-full blur-sm"
               alt="blob"
               width={500}
@@ -28,15 +28,14 @@ export default function Snacks() {
             />
             <div className="relative bg-stone-900 bg-opacity-70">
               <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-center">
-                <p className="mt-4 text-2xl text-gray-300 opacity-80 lg:text-4xl italic font-bold">
-                  <span>Healthy Light Delight</span>
+                <p className="font-bold font-major mt-4 text-lg text-gray-300 opacity-80 lg:text-4xl tracking-tighter">
+                  <span>Healthy, Light, Delight!</span>
                 </p>
-                <h2 className="text-5xl font-bold text-gray-200 lg:text-8xl opacity-95 text-center">
+                <h2 className="font-bold font-sacramento text-6xl sm:text-6xl md:text-7xl lg:text-8xl text-gray-200 opacity-95 text-center">
                   Craving Center
                 </h2>
-                <br></br>
-                <h2 className="text-xl font-bold text-gray-300 lg:text-3xl opacity-95 text-clip">
-                  - by Anjana Dutta
+                <h2 className="text-xl italic font-mono text-gray-300 lg:text-3xl opacity-95 text-clip">
+                  - Written by Anjana Dutta
                 </h2>
                 <br />
               </div>
@@ -52,7 +51,7 @@ export default function Snacks() {
           />
         </header>
         <Body />
-        <footer className="bg-neutral-900 text-gray-400 body-font">
+        <footer className="bg-stone-900 text-gray-400 body-font">
           <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-500">
               <span className="ml-3 text-xl hover:text-gray-600">
