@@ -20,7 +20,7 @@ export default function NonVeg() {
         <header className="text-red-100 body-font bg-black">
           <div className="relative">
             <Image
-              src="/tikka.jpg"
+              src="/bground.jpg"
               className="absolute inset-0 object-cover w-full h-full blur-sm"
               alt="blob"
               width={500}
@@ -28,15 +28,14 @@ export default function NonVeg() {
             />
             <div className="relative bg-stone-900 bg-opacity-70">
               <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-center">
-                <p className="mt-4 text-2xl text-red-600 opacity-80 lg:text-4xl font-mono italic font-bold">
-                  <span>Healthy Light Delight</span>
+                <p className="font-bold font-major mt-4 text-lg text-amber-600 opacity-80 lg:text-4xl tracking-tighter">
+                  <span>Healthy, Light, Delight!</span>
                 </p>
-                <h2 className="text-5xl font-bold font-serif text-red-500 lg:text-8xl opacity-95 text-center">
+                <h2 className="font-bold font-sacramento text-6xl sm:text-6xl md:text-7xl lg:text-8xl text-amber-500 opacity-95 text-center">
                   Craving Center
                 </h2>
-                <br></br>
-                <h2 className="text-xl font-bold font-serif text-red-400 lg:text-3xl opacity-95 text-clip">
-                  - by Anjana Dutta
+                <h2 className="text-xl italic font-mono text-amber-500 lg:text-3xl opacity-95 text-clip">
+                  - Written by Anjana Dutta
                 </h2>
                 <br />
               </div>
