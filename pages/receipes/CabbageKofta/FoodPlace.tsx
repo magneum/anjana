@@ -9,14 +9,14 @@ export default function FoodPlace() {
         <div className="grid gap-10 row-gap-8 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div className="mb-3">
-              <p className="font-sans text-5xl font-extrabold leading-none tracking-tight text-red-800 decoration-red-800 underline">
-                Prawn Mushroom With Cashew
+              <p className="font-sans text-5xl font-extrabold leading-none tracking-tight text-lime-800 decoration-lime-800 underline">
+                Cabbage Kofta
               </p>
             </div>
             <br></br>
             <Image
               className="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl"
-              src="/prawn_1.png"
+              src="/cabbage_kofta.jpg"
               alt="blob"
               width={500}
               height={500}
@@ -26,58 +26,59 @@ export default function FoodPlace() {
           <div className="flex flex-col space-y-8 lg:col-span-3">
             <div>
               <div className="mb-3">
-                <p className="font-sans text-2xl font-extrabold leading-none tracking-tight lg:text-2xl text-red-700">
+                <p className="font-sans text-2xl font-extrabold leading-none tracking-tight lg:text-2xl text-lime-700">
                   - Preparation
                 </p>
               </div>
-              <p className="mb-4 text-base text-red-50 md:text-lg">
-                <span className="text-red-700">● </span>Mix the prawn and
+              <p className="mb-4 text-base text-lime-50 md:text-lg">
+                <span className="text-lime-700">● </span>Mix the prawn and
                 mushroom in separte bowls with turmeric powder and salt.
                 <br></br>
-                <span className="text-red-700">● </span>Heat up a pan, pour oil
+                <span className="text-lime-700">● </span>Heat up a pan, pour oil
                 as required.
                 <br></br>
-                <span className="text-red-700">● </span>Fry the prawns and
+                <span className="text-lime-700">● </span>Fry the prawns and
                 mushrooms separately in medium flame.<br></br>
-                <span className="text-red-700">● </span>Donot fry them too much.
+                <span className="text-lime-700">● </span>Donot fry them too
+                much.
                 <br></br>
-                <span className="text-red-700">● </span>Keep them a little less
+                <span className="text-lime-700">● </span>Keep them a little less
                 then fully cooked.
                 <br></br>
-                <span className="text-red-700">● </span>Keep them aside in a
+                <span className="text-lime-700">● </span>Keep them aside in a
                 bowl.
               </p>
             </div>
             <div>
               <div className="mb-3">
-                <p className="font-sans text-2xl font-extrabold leading-none tracking-tight lg:text-2xl text-red-700">
+                <p className="font-sans text-2xl font-extrabold leading-none tracking-tight lg:text-2xl text-lime-700">
                   - Gravy
                 </p>
               </div>
-              <p className="mb-4 text-base text-red-50 md:text-lg">
-                <span className="text-red-700">● </span>In the same pan now cook
-                the choopped onions.<br></br>
-                <span className="text-red-700">● </span>You can add more oil if
+              <p className="mb-4 text-base text-lime-50 md:text-lg">
+                <span className="text-lime-700">● </span>In the same pan now
+                cook the choopped onions.<br></br>
+                <span className="text-lime-700">● </span>You can add more oil if
                 required but before you give oniom you need to add the oil,
                 otherwise you will get a raw oil smell in the dish.
                 <br></br>
-                <span className="text-red-700">● </span>Donot deep dry the
+                <span className="text-lime-700">● </span>Donot deep dry the
                 onions, them should turn a little golden brown colour, now add
                 the tomato-ginger-chilli paste in it along with some turmeric
-                powder, salt and red chilli powder (as per your taste buds).
+                powder, salt and lime chilli powder (as per your taste buds).
                 <br></br>
-                <span className="text-red-700">● </span>Now cook all the
+                <span className="text-lime-700">● </span>Now cook all the
                 ingredients well in medium flame properly.<br></br>
-                <span className="text-red-700">● </span>You may add a little
+                <span className="text-lime-700">● </span>You may add a little
                 water as required to let cook the ingredients well.<br></br>
-                <span className="text-red-700">● </span>Now add the fried
+                <span className="text-lime-700">● </span>Now add the fried
                 mushrooms and prawns in the mix and cook them well till they get
                 mixed up well.
                 <br></br>
-                <span className="text-red-700">● </span>Add the cashew paste and
-                a little water.<br></br>
-                <span className="text-red-700">● </span>Cook until you are happy
-                with the consistency and color of the gravy.
+                <span className="text-lime-700">● </span>Add the cashew paste
+                and a little water.<br></br>
+                <span className="text-lime-700">● </span>Cook until you are
+                happy with the consistency and color of the gravy.
               </p>
             </div>
           </div>
@@ -149,7 +150,7 @@ dish.
 <br></br>
 ● Donot deep dry the onions, them should turn a little
 golden brown colour, now add the tomato-ginger-chilli paste in
-it along with some turmeric powder, salt and red chilli powder
+it along with some turmeric powder, salt and lime chilli powder
 (as per your taste buds).<br></br>
 ● Now cook all the ingredients
 well in medium flame properly.<br></br>

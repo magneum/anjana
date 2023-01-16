@@ -18,7 +18,7 @@ export default function Body() {
               ></Image>
               <div className="p-6">
                 <a
-                  className="bg-gradient-to-r from-stone-900 via-stone-800 to-yellow-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-yellow-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
+                  className="bg-gradient-to-r from-stone-900 to-zinc-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-yellow-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
                   href="#"
                 >
                   <span className="text-lg font-medium">Khoya Kheer Puli</span>
@@ -75,7 +75,7 @@ height={500}
 ></Image>
 <div className="p-6">
 <a
-className="bg-gradient-to-r from-stone-900 via-stone-800 to-yellow-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-yellow-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
+className="bg-gradient-to-r from-stone-900 to-zinc-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-yellow-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
 href="#"
 >
 <span className="text-lg font-medium">
@@ -149,7 +149,7 @@ height={500}
 ></Image>
 <div className="p-6">
 <a
-className="bg-gradient-to-r from-stone-900 via-stone-800 to-yellow-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-yellow-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
+className="bg-gradient-to-r from-stone-900 to-zinc-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-yellow-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
 href="#"
 >
 <span className="text-lg font-medium">

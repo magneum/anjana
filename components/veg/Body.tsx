@@ -11,19 +11,17 @@ export default function Body() {
             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-gradient-to-r from-[#285201] to-[#8bac14] shadow-lg">
               <Image
                 className="lg:h-48 md:h-36 w-full object-cover object-center"
-                src="/veg_1.png"
+                src="/cabbage_kofta.jpg"
                 alt="blob"
                 width={500}
                 height={500}
               ></Image>
               <div className="p-6">
-                <a
-                  className="bg-gradient-to-r from-stone-900 via-stone-800 to-lime-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-lime-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
-                  href="#"
+                <Link
+                  className="bg-gradient-to-r from-stone-900 to-zinc-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-lime-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
+                  href="/receipes/CabbageKofta/receipe"
                 >
-                  <span className="text-lg font-medium">
-                    Prawn Mushroom with Cashew Receipe
-                  </span>
+                  <span className="text-lg font-medium">Cabbage Kofta</span>
                   <svg
                     className="ml-3 h-5 w-5"
                     xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +36,7 @@ export default function Body() {
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
-                </a>
+                </Link>
                 <br></br>
                 <br></br>
                 <h1 className="title-font text-lg font-medium text-white mb-3 ">
@@ -70,7 +68,7 @@ height={500}
 ></Image>
 <div className="p-6">
 <a
-className="bg-gradient-to-r from-stone-900 via-stone-800 to-lime-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-lime-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
+className="bg-gradient-to-r from-stone-900 to-zinc-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-lime-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
 href="#"
 >
 <span className="text-lg font-medium">
@@ -144,7 +142,7 @@ height={500}
 ></Image>
 <div className="p-6">
 <a
-className="bg-gradient-to-r from-stone-900 via-stone-800 to-lime-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-lime-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
+className="bg-gradient-to-r from-stone-900 to-zinc-900 shadow-lg inline-flex items-center rounded-lg px-8 py-3 text-lime-300 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
 href="#"
 >
 <span className="text-lg font-medium">

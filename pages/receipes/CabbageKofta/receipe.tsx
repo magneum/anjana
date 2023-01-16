@@ -3,10 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import React, { useState, useEffect } from "react";
-const Body = dynamic(() => import("../components/sweets/Body"));
-const Navbar = dynamic(() => import("../components/sweets/nav"));
-
-export default function Sweets() {
+const FoodPlace = dynamic(() => import("./FoodPlace"));
+export default function NonVeg() {
+  useEffect(() => {}, []);
   return (
     <>
       <Head>
@@ -16,8 +15,9 @@ export default function Sweets() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navbar />
-        <header className="text-yellow-100 body-font bg-black">
+        <nav></nav>
+        {/* ============================================================================================ */}
+        <header className="text-lime-100 body-font bg-black">
           <div className="relative">
             <Image
               src="/bground.jpg"
@@ -28,13 +28,13 @@ export default function Sweets() {
             />
             <div className="relative bg-stone-900 bg-opacity-70">
               <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-center">
-                <p className="font-bold font-major mt-4 text-lg text-yellow-600 opacity-80 lg:text-4xl tracking-tighter">
+                <p className="font-bold font-major mt-4 text-lg text-amber-600 opacity-80 lg:text-4xl tracking-tighter">
                   <span>Healthy, Light, Delight!</span>
                 </p>
-                <h2 className="font-bold font-sacramento text-6xl sm:text-6xl md:text-7xl lg:text-8xl text-yellow-500 opacity-95 text-center">
+                <h2 className="font-bold font-sacramento text-6xl sm:text-6xl md:text-7xl lg:text-8xl text-amber-500 opacity-95 text-center">
                   Craving Center
                 </h2>
-                <h2 className="text-xl italic font-mono text-yellow-500 lg:text-3xl opacity-95 text-clip">
+                <h2 className="text-xl italic font-mono text-amber-500 lg:text-3xl opacity-95 text-clip">
                   - Written by Anjana Dutta
                 </h2>
                 <br />
@@ -44,34 +44,34 @@ export default function Sweets() {
           <hr
             style={{
               color: "#3f2e2cc0",
-              backgroundColor: "#D4D25C",
+              backgroundColor: "#D4645C",
               height: 6,
               borderColor: "#3f2e2cc0",
             }}
           />
         </header>
-        <Body />
-        <footer className="bg-stone-900 text-yellow-400 body-font">
+        <FoodPlace />
+        <footer className="bg-stone-900 text-lime-400 body-font">
           <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-            <a className="flex title-font font-medium items-center md:justify-start justify-center text-yellow-500">
-              <span className="ml-3 text-xl hover:text-yellow-600">
+            <a className="flex title-font font-medium items-center md:justify-start justify-center text-lime-500">
+              <span className="ml-3 text-xl hover:text-lime-600">
                 <b>❝ Coded by ⒸKryKenz ❞</b>
               </span>
             </a>
-            <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-yellow-800 sm:py-2 sm:mt-0 mt-4">
+            <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-lime-800 sm:py-2 sm:mt-0 mt-4">
               <b>Since 2021 and Forever</b>
               <a
                 href="https://github.com/KryKenz/Vlkyre/blob/krytek/LICENSE"
-                className="text-yellow-500 ml-1 hover:text-yellow-200"
+                className="text-lime-500 ml-1 hover:text-lime-200"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i>Licensed Under MPL 2.0</i>
+                <i>Licensed Under Mozilla Public License 2.0</i>
               </a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"></span>
             <a
-              className="inline-flex items-center rounded-full bg-stone-900 px-8 py-3 text-yellow-600 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
+              className="inline-flex items-center rounded-full bg-stone-900 px-8 py-3 text-lime-600 hover:bg-stone-800 hover:text-white focus:outline-none focus:ring active:bg-white/90"
               href="#"
             >
               <span className="text-sm font-medium"> Back To Top </span>

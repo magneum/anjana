@@ -21,7 +21,7 @@ export default function NonVeg() {
           <div className="relative">
             <Image
               src="/bground.jpg"
-              className="absolute inset-0 object-cover w-full h-full blur-sm"
+              className="absolute inset-0 object-cover w-full h-full blur-lg"
               alt="blob"
               width={500}
               height={500}

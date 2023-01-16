@@ -10,13 +10,13 @@ export default function FoodPlace() {
           <div className="lg:col-span-2">
             <div className="mb-3">
               <p className="font-sans text-5xl font-extrabold leading-none tracking-tight text-red-800 decoration-red-800 underline">
-                Prawn Mushroom With Cashew
+                Macher Ghonto
               </p>
             </div>
             <br></br>
             <Image
               className="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl"
-              src="/prawn_1.png"
+              src="/macher_ghonto.jpg"
               alt="blob"
               width={500}
               height={500}
@@ -102,10 +102,10 @@ Cashew{" "}
 <div className="px-4 py-8 bg-stone-900 rounded-lg">
 <div className="rounded-lg bg-[#30261fb2] hover:bg-[#413126b2] placeholder:p-8">
 <div className="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
-<blockquote className="sm:col-span-2 text-amber-50 ">
+<blockquote className="sm:col-span-2 text-red-50 ">
 <cite className="mt-8 inline-flex items-center not-italic">
 <span className="hidden h-px w-6 bg-gray-400 sm:inline-"></span>
-<p className="text-lg uppercase text-amber-200 sm:ml-3">
+<p className="text-lg uppercase text-red-200 sm:ml-3">
 <strong>preparation</strong>, get started.
 </p>
 </cite>
@@ -132,10 +132,10 @@ bowl.<br></br>
 <div className="px-4 py-8 bg-stone-900 rounded-lg lg:text-center">
 <div className="rounded-lg bg-[#30261fb2] hover:bg-[#413126b2] p-8">
 <div className="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
-<blockquote className="sm:col-span-2 text-amber-50">
+<blockquote className="sm:col-span-2 text-red-50">
 <cite className="mt-8 inline-flex items-center not-italic">
 <span className="hidden h-px w-6 bg-gray-400 sm:inline-"></span>
-<p className="text-xl uppercase text-amber-200 sm:ml-3">
+<p className="text-xl uppercase text-red-200 sm:ml-3">
 <strong>gravy</strong>, finalize.
 </p>
 </cite>
