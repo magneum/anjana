@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        pacifo: "Pacifico, cursive",
+        pacifico: ["Pacifico, cursive"],
       },
     },
   },

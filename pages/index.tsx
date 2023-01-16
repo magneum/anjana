@@ -28,10 +28,10 @@ export default function Home() {
             />
             <div className="relative bg-stone-900 bg-opacity-70">
               <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-center">
-                <p className="mt-4 text-2xl text-amber-600 opacity-80 lg:text-4xl italic font-bold">
+                <p className="mt-4 text-2xl text-amber-600 opacity-80 lg:text-4xl italic font-mono tracking-tighter">
                   <span>Healthy Light Delight</span>
                 </p>
-                <h2 className="text-5xl font-bold text-amber-500 lg:text-8xl opacity-95 text-center">
+                <h2 className="font-pacifico text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-amber-500 opacity-95 text-center">
                   Craving Center
                 </h2>
                 <br></br>
